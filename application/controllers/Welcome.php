@@ -28,4 +28,24 @@ class Welcome extends CI_Controller {
 		$this->load->helper('url');
 		$this->load->view('services');
 	}
+	public function doctors()
+	{
+		$this->load->helper('url');
+		$this->load->view('doctors');
+	}
+	public function about()
+	{
+		$this->load->helper('url');
+		$this->load->view('about');
+	}
+	public function contact()
+	{
+		$this->load->helper('url');
+		$this->load->view('contact');
+	}
+	public function galery()
+	{
+		$this->load->helper('url');
+		$this->load->view('galery');
+	}
 }

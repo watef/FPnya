@@ -77,7 +77,7 @@
                 <a class="nav-link" href="<?php echo base_url(); ?>Welcome/doctors">Tenaga Medis</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="<?php echo base_url(); ?>Welcome/services">Galery</a>
+                <a class="nav-link" href="<?php echo base_url(); ?>Welcome/galery">Galery</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="<?php echo base_url(); ?>Welcome/about">Tentang</a>
@@ -368,7 +368,7 @@
           </div>
           <div class="col-md-3 mb-5">
             <h3>Email</h3>
-            <p class="mb-5"><a href="mailto:lulukwatef76@gmail.com.com">hendridentalclinic@gmail.com</a></p>
+            <p class="mb-5"><!--a href="mailto:lulukwatef76@gmail.com.com"-->hendridentalclinic@gmail.com<!--/a--></p>
 
             <h3>Telepon</h3>
             <p>087850112825</p>
