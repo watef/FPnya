@@ -10,6 +10,8 @@ class Login extends CI_Controller{
 
 	function index(){
 		$this->load->view('login');
+
+
 	}
 
 	function aksi_login(){
@@ -19,8 +21,20 @@ class Login extends CI_Controller{
 			'username' => $username,
 			'password' => md5($password)
 			);
-		$cek = $this->m_login->cek_login("admin",$where)->num_rows();
+		$cek = $this->m_login->cek_login('admin',$where)->num_rows();
 		if($cek > 0){
+
+			/*$data_session = array(
+				'nama' => $username,
+				'status' => "login"
+				);
+
+			$this->session->set_userdata($data_session);
+
+			redirect(base_url('admin'));*/
+			echo "Username dan password salah !";
+		}else{
+			//echo "Username dan password salah !";
 
 			$data_session = array(
 				'nama' => $username,
@@ -30,12 +44,8 @@ class Login extends CI_Controller{
 			$this->session->set_userdata($data_session);
 
 			redirect(base_url('admin'));
-
-		}else{
-			echo "Username dan password salah !";
 		}
 	}
-
 	function logout(){
 		$this->session->sess_destroy();
 		redirect(base_url('login'));

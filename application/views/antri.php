@@ -17,9 +17,25 @@
     <link rel="stylesheet" href="<?php echo base_url(); ?>assets/fonts/fontawesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="<?php echo base_url(); ?>assets/fonts/flaticon/font/flaticon.css">
 
-
     <!-- Theme Style -->
     <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/style.css">
+
+
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <title>SB Admin - Start Bootstrap Template</title>
+      <!-- Bootstrap core CSS-->
+      <link href="<?php echo base_url(); ?>assets/admin/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+      <!-- Custom fonts for this template-->
+      <link href="<?php echo base_url(); ?>assets/admin/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+      <!-- Page level plugin CSS-->
+      <link href="<?php echo base_url(); ?>assets/admin/vendor/datatables/dataTables.bootstrap4.css" rel="stylesheet">
+      <!-- Custom styles for this template-->
+      <!--link href="<?php echo base_url(); ?>assets/admin/css/sb-admin.css" rel="stylesheet"-->
+
   </head>
   <body>
 
@@ -83,13 +99,13 @@
                 <a class="nav-link" href="<?php echo base_url(); ?>Welcome/about">Tentang</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" href="<?php echo base_url(); ?>Welcome/contact">Kontak</a>
+                <a class="nav-link" href="<?php echo base_url(); ?>Welcome/contact">Kontak</a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="<?php echo base_url(); ?>Welcome/doctors" id="dropdown05" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Antrian</a>
                 <div class="dropdown-menu" aria-labelledby="dropdown05">
                   <a class="dropdown-item" href="<?php echo base_url(); ?>Welcome/antri">Daftar Antrian</a>
-                  <a class="dropdown-item" href="<?php echo base_url(); ?>login">Admin</a>
+                    <a class="dropdown-item" href="<?php echo base_url(); ?>login">Admin</a>
                 </div>
               </li>
             </ul>
@@ -97,80 +113,34 @@
         </div>
       </nav>
     </header>
+
     <!-- END header -->
 
-    <section class="home-slider inner-page owl-carousel">
-      <div class="slider-item" style="background-image: url('<?php echo base_url(); ?>assets/img/slider-2.jpg');">
 
-        <div class="container">
-          <div class="row slider-text align-items-center">
-            <div class="col-md-7 col-sm-12 element-animate">
-              <h1>Contact Us</h1>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi unde impedit, necessitatibus, soluta sit quam minima expedita atque corrupti reiciendis.</p>
-            </div>
-          </div>
-        </div>
 
-      </div>
-
-    </section>
     <!-- END slider -->
+    <!--h1 style="text-align:center">Daftar Antrian</h1-->
 
+    <div class="card mb-3">
+        <div class="card-header" style="text-align: center">
+        Daftar Antrian</div>
+        <div class="card-body">
+          <div class="table-responsive">
+            <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0" style="text-align:center">
+              <thead>
+                <tr>
+                  <th>Nama</th>
+                  <th>Umur</th>
+                  <th>No Hp</th>
+                  <th>Tanggal</th>
+                  <th>Waktu</th>
+                  <th>Keluhan</th>
+                </tr>
+              </thead>
+            <tbody>
 
-    <section class="section">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6 mb-5 element-animate">
-            <form action="#" method="post">
-              <div class="row">
-                <div class="col-md-6 form-group">
-                  <label for="fname">First Name</label>
-                  <input type="text" class="form-control form-control-lg" id="fname">
-                </div>
-                <div class="col-md-6 form-group">
-                  <label for="lname">Last Name</label>
-                  <input type="text" class="form-control form-control-lg" id="lname">
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-md-12 form-group">
-                  <label for="email">Email</label>
-                  <input type="email" id="email" class="form-control form-control-lg">
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-md-12 form-group">
-                  <label for="message">Write Message</label>
-                  <textarea name="message" id="message" class="form-control form-control-lg" cols="30" rows="8"></textarea>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-md-6 form-group">
-                  <input type="submit" value="Send Message" class="btn btn-primary btn-lg btn-block">
-                </div>
-
-              </div>
-            </form>
-          </div>
-          <div class="col-md-1"></div>
-          <div class="col-md-5 element-animate">
-
-            <h5 class="text-uppercase mb-3">Address</h5>
-            <p class="mb-5">98 West 21th Street, <br> Suite 721 <br> New York NY 10016</p>
-
-            <h5 class="text-uppercase mb-3">Email Us At</h5>
-            <p class="mb-5"><a href="mailto:info@yourdomain.com">info@yourdomain.com</a> <br> <a href="mailto:customer@yourdomain.com">customer@yourdomain.com</a></p>
-
-            <h5 class="text-uppercase mb-3">Call Us</h5>
-            <p class="mb-5">Phone: (+1) 435 3533 <br> Mobile: (+1) 435 3533 <br> Fax: (+1) 435 3534</p>
-
-
-          </div>
-        </div>
-      </div>
-    </section>
-
-
+            </tbody>
+          </table>
     <a href="#" class="cta-link element-animate" data-animate-effect="fadeIn" data-toggle="modal" data-target="#modalAppointment">
       <span class="sub-heading">Siap untuk kesehatan gigi dan mulut?</span>
       <span class="heading">Daftar untuk Control</span>
@@ -286,5 +256,17 @@
     <script src="<?php echo base_url(); ?>assets/js/jquery.timepicker.min.js"></script>
     <script src="<?php echo base_url(); ?>assets/js/jquery.waypoints.min.js"></script>
     <script src="<?php echo base_url(); ?>assets/js/main.js"></script>
+
+    <script src="<?php echo base_url(); ?>assets/admin/vendor/jquery/jquery.min.js"></script>
+   <script src="<?php echo base_url(); ?>assets/admin/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+   <!-- Core plugin JavaScript-->
+   <script src="<?php echo base_url(); ?>assets/admin/vendor/jquery-easing/jquery.easing.min.js"></script>
+   <!-- Page level plugin JavaScript-->
+   <script src="<?php echo base_url(); ?>assets/admin/vendor/datatables/jquery.dataTables.js"></script>
+   <script src="<?php echo base_url(); ?>assets/admin/vendor/datatables/dataTables.bootstrap4.js"></script>
+   <!-- Custom scripts for all pages-->
+   <script src="<?php echo base_url(); ?>assets/admin/js/sb-admin.min.js"></script>
+   <!-- Custom scripts for this page-->
+   <script src="<?php echo base_url(); ?>assets/admin/js/sb-admin-datatables.min.js"></script>
   </body>
-  </html>
+</html>

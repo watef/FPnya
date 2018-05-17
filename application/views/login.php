@@ -24,20 +24,20 @@
         <form action="<?php echo base_url('login/aksi_login'); ?>" method="post">
           <div class="form-group">
             <label for="exampleInputEmail1">Username</label>
-            <input class="form-control" id="exampleInputEmail1" type="text" aria-describedby="emailHelp" placeholder="Enter username" name="username">
+            <input class="form-control" id="exampleInputEmail1" type="text" aria-describedby="emailHelp" placeholder="username" name="username">
           </div>
           <div class="form-group">
             <label for="exampleInputPassword1">Password</label>
-            <input class="form-control" id="exampleInputPassword1" type="password" placeholder="Password">
+            <input class="form-control" id="exampleInputPassword1" type="password" placeholder="Password" nsme="password">
           </div>
 
           <div class="form-group">
             <div class="form-check">
               <label class="form-check-label">
-                <!--input class="form-check-input" type="checkbox"> Remember Password</label-->
+                <input class="form-check-input" type="checkbox"> Remember Password</label>
             </div>
           </div>
-          <a class="btn btn-primary btn-block" href="<?php echo base_url(); ?>Welcome/admin">Login</a>
+          <input type="submit" class="btn btn-primary btn-block" value="Login">
           <a class="btn btn-primary btn-block" href="<?php echo base_url(); ?>Welcome/index">Cancel</a>
         </form>
         <!--div class="text-center">

@@ -90,7 +90,7 @@
                 <a class="nav-link dropdown-toggle" href="<?php echo base_url(); ?>Welcome/doctors" id="dropdown05" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Antrian</a>
                 <div class="dropdown-menu" aria-labelledby="dropdown05">
                   <a class="dropdown-item" href="<?php echo base_url(); ?>Welcome/antri">Daftar Antrian</a>
-                  <a class="dropdown-item" href="<?php echo base_url(); ?>Admin">Admin</a>
+                  <a class="dropdown-item" href="<?php echo base_url(); ?>login">Admin</a>
                 </div>
               </li>
             </ul>

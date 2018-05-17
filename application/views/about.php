@@ -89,7 +89,7 @@
                 <a class="nav-link dropdown-toggle" href="<?php echo base_url(); ?>Welcome/doctors" id="dropdown05" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Antrian</a>
                 <div class="dropdown-menu" aria-labelledby="dropdown05">
                   <a class="dropdown-item" href="<?php echo base_url(); ?>Welcome/antri">Daftar Antrian</a>
-                  <a class="dropdown-item" href="<?php echo base_url(); ?>Admin">Admin</a>
+                  <a class="dropdown-item" href="<?php echo base_url(); ?>login">Admin</a>
                 </div>
               </li>
             </ul>
@@ -186,136 +186,6 @@
       </div>
     </section>
 
-    <!--section class="section bg-light">
-      <div class="container">
-        <div class="row justify-content-center mb-5 element-animate">
-          <div class="col-md-8 text-center mb-5">
-            <h2 class="text-uppercase heading border-bottom mb-4">Our Doctors</h2>
-            <p class="mb-0 lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi unde impedit, necessitatibus, soluta sit quam minima expedita atque corrupti reiciendis.</p>
-          </div>
-        </div>
-        <div class="row element-animate">
-          <div class="major-caousel js-carousel-1 owl-carousel">
-            <div>
-              <div class="media d-block media-custom text-center">
-                <img src="img/doctor_1.jpg" alt="Image Placeholder" class="img-fluid">
-                <div class="media-body">
-                  <h3 class="mt-0 text-black">Dr. Carl Smith</h3>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                  <p>
-                    <a href="#" class="p-2"><span class="fa fa-facebook"></span></a>
-                    <a href="#" class="p-2"><span class="fa fa-twitter"></span></a>
-                    <a href="#" class="p-2"><span class="fa fa-linkedin"></span></a>
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div>
-              <div class="media d-block media-custom text-center">
-                <img src="img/doctor_2.jpg" alt="Image Placeholder" class="img-fluid">
-                <div class="media-body">
-                  <h3 class="mt-0 text-black">Dr. Janice Doe</h3>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                  <p>
-                    <a href="#" class="p-2"><span class="fa fa-facebook"></span></a>
-                    <a href="#" class="p-2"><span class="fa fa-twitter"></span></a>
-                    <a href="#" class="p-2"><span class="fa fa-linkedin"></span></a>
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div>
-              <div class="media d-block media-custom text-center">
-                <img src="img/doctor_3.jpg" alt="Image Placeholder" class="img-fluid">
-                <div class="media-body">
-                  <h3 class="mt-0 text-black">Dr. Jean Doe</h3>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                  <p>
-                    <a href="#" class="p-2"><span class="fa fa-facebook"></span></a>
-                    <a href="#" class="p-2"><span class="fa fa-twitter"></span></a>
-                    <a href="#" class="p-2"><span class="fa fa-linkedin"></span></a>
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div>
-              <div class="media d-block media-custom text-center">
-                <img src="img/doctor_4.jpg" alt="Image Placeholder" class="img-fluid">
-                <div class="media-body">
-                  <h3 class="mt-0 text-black">Dr. Jessica Doe</h3>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                  <p>
-                    <a href="#" class="p-2"><span class="fa fa-facebook"></span></a>
-                    <a href="#" class="p-2"><span class="fa fa-twitter"></span></a>
-                    <a href="#" class="p-2"><span class="fa fa-linkedin"></span></a>
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <div>
-              <div class="media d-block media-custom text-center">
-                <img src="img/doctor_1.jpg" alt="Image Placeholder" class="img-fluid">
-                <div class="media-body">
-                  <h3 class="mt-0 text-black">Dr. Carl Smith</h3>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                  <p>
-                    <a href="#" class="p-2"><span class="fa fa-facebook"></span></a>
-                    <a href="#" class="p-2"><span class="fa fa-twitter"></span></a>
-                    <a href="#" class="p-2"><span class="fa fa-linkedin"></span></a>
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div>
-              <div class="media d-block media-custom text-center">
-                <img src="img/doctor_2.jpg" alt="Image Placeholder" class="img-fluid">
-                <div class="media-body">
-                  <h3 class="mt-0 text-black">Dr. Janice Doe</h3>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                  <p>
-                    <a href="#" class="p-2"><span class="fa fa-facebook"></span></a>
-                    <a href="#" class="p-2"><span class="fa fa-twitter"></span></a>
-                    <a href="#" class="p-2"><span class="fa fa-linkedin"></span></a>
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div>
-              <div class="media d-block media-custom text-center">
-                <img src="img/doctor_3.jpg" alt="Image Placeholder" class="img-fluid">
-                <div class="media-body">
-                  <h3 class="mt-0 text-black">Dr. Jean Doe</h3>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                  <p>
-                    <a href="#" class="p-2"><span class="fa fa-facebook"></span></a>
-                    <a href="#" class="p-2"><span class="fa fa-twitter"></span></a>
-                    <a href="#" class="p-2"><span class="fa fa-linkedin"></span></a>
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div>
-              <div class="media d-block media-custom text-center">
-                <img src="img/doctor_4.jpg" alt="Image Placeholder" class="img-fluid">
-                <div class="media-body">
-                  <h3 class="mt-0 text-black">Dr. Jessica Doe</h3>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                  <p>
-                    <a href="#" class="p-2"><span class="fa fa-facebook"></span></a>
-                    <a href="#" class="p-2"><span class="fa fa-twitter"></span></a>
-                    <a href="#" class="p-2"><span class="fa fa-linkedin"></span></a>
-                  </p>
-                </div>
-              </div>
-            </div>
-
-          </div>
-
-        </div>
-      </div>
-    </section-->
-    <!-- END section -->
 
     <a href="#" class="cta-link element-animate" data-animate-effect="fadeIn" data-toggle="modal" data-target="#modalAppointment">
       <span class="sub-heading">Siap untuk kesehatan gigi dan mulut?</span>
