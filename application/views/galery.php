@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="<?php echo base_url(); ?>assets/fonts/flaticon/font/flaticon.css">
 
 
+
     <!-- Theme Style -->
     <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/style.css">
   </head>
@@ -88,8 +89,8 @@
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="<?php echo base_url(); ?>Welcome/doctors" id="dropdown05" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Antrian</a>
                 <div class="dropdown-menu" aria-labelledby="dropdown05">
-                  <a class="dropdown-item" href="doctors.html">Daftar Antrian</a>
-                  <a class="dropdown-item" href="#">Admin</a>
+                  <a class="dropdown-item" href="<?php echo base_url(); ?>Welcome/antri">Daftar Antrian</a>
+                  <a class="dropdown-item" href="<?php echo base_url(); ?>Admin">Admin</a>
                 </div>
               </li>
             </ul>
@@ -117,7 +118,109 @@
 
     </section>
     <!-- END slider -->
+    <section class="section bg-light">
+          <div class="container">
+            <div class="row justify-content-center mb-5 element-animate">
+              <div class="col-md-8 text-center mb-5">
+                <h2 class="text-uppercase heading border-bottom mb-4">Our Doctors</h2>
+                <p class="mb-0 lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi unde impedit, necessitatibus, soluta sit quam minima expedita atque corrupti reiciendis.</p>
+              </div>
+            </div>
+            <div class="row element-animate">
+              <div class="major-caousel js-carousel-1 owl-carousel">
+                <div>
+                  <div class="media d-block media-custom text-center">
+                    <img src="<?php echo base_url(); ?>assets/img/doctor_1.jpg" alt="Image Placeholder" class="img-fluid">
+                    <div class="media-body">
+                      <h3 class="mt-0 text-black">Dr. Carl Smith</h3>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <div class="media d-block media-custom text-center">
+                    <img src="<?php echo base_url(); ?>assets/img/doctor_2.jpg" alt="Image Placeholder" class="img-fluid">
+                    <div class="media-body">
+                      <h3 class="mt-0 text-black">Dr. Janice Doe</h3>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                      <p>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <div class="media d-block media-custom text-center">
+                    <img src="<?php echo base_url(); ?>assets/img/doctor_3.jpg" alt="Image Placeholder" class="img-fluid">
+                    <div class="media-body">
+                      <h3 class="mt-0 text-black">Dr. Jean Doe</h3>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                      <p>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <div class="media d-block media-custom text-center">
+                    <img src="<?php echo base_url(); ?>assets/img/doctor_4.jpg" alt="Image Placeholder" class="img-fluid">
+                    <div class="media-body">
+                      <h3 class="mt-0 text-black">Dr. Jessica Doe</h3>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                      <p>
+                      </p>
+                    </div>
+                  </div>
+                </div>
 
+                <div>
+                  <div class="media d-block media-custom text-center">
+                    <img src="<?php echo base_url(); ?>assets/img/doctor_1.jpg" alt="Image Placeholder" class="img-fluid">
+                    <div class="media-body">
+                      <h3 class="mt-0 text-black">Dr. Carl Smith</h3>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                      <p>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <div class="media d-block media-custom text-center">
+                    <img src="<?php echo base_url(); ?>assets/img/doctor_2.jpg" alt="Image Placeholder" class="img-fluid">
+                    <div class="media-body">
+                      <h3 class="mt-0 text-black">Dr. Janice Doe</h3>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                      <p>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <div class="media d-block media-custom text-center">
+                    <img src="<?php echo base_url(); ?>assets/img/doctor_3.jpg" alt="Image Placeholder" class="img-fluid">
+                    <div class="media-body">
+                      <h3 class="mt-0 text-black">Dr. Jean Doe</h3>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                      <p>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <div class="media d-block media-custom text-center">
+                    <img src="<?php echo base_url(); ?>assets/img/doctor_4.jpg" alt="Image Placeholder" class="img-fluid">
+                    <div class="media-body">
+                      <h3 class="mt-0 text-black">Dr. Jessica Doe</h3>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                      <p>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+              <!-- END slider -->
+            </div>
+          </div>
+        </section>
 
 
     <a href="#" class="cta-link element-animate" data-animate-effect="fadeIn" data-toggle="modal" data-target="#modalAppointment">

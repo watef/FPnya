@@ -48,4 +48,18 @@ class Welcome extends CI_Controller {
 		$this->load->helper('url');
 		$this->load->view('galery');
 	}
+	public function antri()
+	{
+		$this->load->helper('url');
+		$this->load->view('antri');
+	}
+	public function admin()
+	{
+		$this->load->helper('url');
+		$this->load->view('admin');
+	}
+	function logout(){
+	$this->session->sess_destroy();
+	redirect(base_url('login'));
+}
 }
