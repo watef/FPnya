@@ -24,30 +24,27 @@ class Login extends CI_Controller{
 		$cek = $this->m_login->cek_login('admin',$where)->num_rows();
 		if($cek > 0){
 
-			/*$data_session = array(
-				'nama' => $username,
-				'status' => "login"
-				);
-
-			$this->session->set_userdata($data_session);
-
-			redirect(base_url('admin'));*/
-			echo "Username dan password salah !";
-		}else{
-			//echo "Username dan password salah !";
-
 			$data_session = array(
 				'nama' => $username,
 				'status' => "login"
 				);
-
+				$_SESSION['id']=$data_session;
 			$this->session->set_userdata($data_session);
 
 			redirect(base_url('admin'));
-		}
+			//echo "Username dan password salah !";
+		}else{
+			echo "Username dan password salah !";
+			var_dump($cek,$username,$password);
+
+
 	}
+}
 	function logout(){
+
 		$this->session->sess_destroy();
 		redirect(base_url('login'));
+		session_unset();
+    session_destroy();
 	}
 }

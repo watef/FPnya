@@ -10,8 +10,14 @@ class Admin extends CI_Controller{
 		}
 	}
 
-	function index(){
-		$this->load->view('admin');
+	//function index(){
+		//$this->load->view('admin');
+	//}
+	public function index()
+	{
+		$this->load->model('m_klinik');
+		$klinik =$this->m_klinik->getklinik();
+		$this->load->view('admin',array('klinik'=>$klinik));
 	}
 
 }

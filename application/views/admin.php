@@ -1,3 +1,8 @@
+<?php
+    if (!isset($_SESSION['id'])) {
+    redirect(base_url("/login"));
+}
+ ?>
 <!doctype html>
 <html lang="en">
   <head>
@@ -20,6 +25,22 @@
 
     <!-- Theme Style -->
     <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/style.css">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>SB Admin - Start Bootstrap Template</title>
+    <!-- Bootstrap core CSS-->
+    <link href="<?php echo base_url(); ?>assets/admin/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom fonts for this template-->
+    <link href="<?php echo base_url(); ?>assets/admin/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <!-- Page level plugin CSS-->
+    <link href="<?php echo base_url(); ?>assets/admin/vendor/datatables/dataTables.bootstrap4.css" rel="stylesheet">
+    <!-- Custom styles for this template-->
+    <!--link href="<?php echo base_url(); ?>assets/admin/css/sb-admin.css" rel="stylesheet"-->
+
+
   </head>
   <body>
 
@@ -87,56 +108,51 @@
     <!-- END slider -->
 
 
-    <a href="#" class="cta-link element-animate" data-animate-effect="fadeIn" data-toggle="modal" data-target="#modalAppointment">
-      <span class="sub-heading">Siap untuk kesehatan gigi dan mulut?</span>
-      <span class="heading">Daftar untuk Control</span>
-    </a>
-    <!-- END cta-link -->
+    <div class="card mb-3">
 
-    <footer class="site-footer" role="contentinfo">
-      <div class="container">
-        <div class="row mb-5 element-animate">
-          <div class="col-md-3 mb-5">
-            <h3><a href="Welcome/services" style="color:white">Layanan</a></h3>
-            <ul class="footer-link list-unstyled">
-              <li><p>Perawatan Gigi &amp; Mulut</p></li>
-              <li><p>Konservasi Gigi</p></li>
-              <li><p>Penyakit Umum</p></li>
-            </ul>
-          </div>
-          <div class="col-md-3 mb-5">
-            <h3><a href="Welcome/services" style="color:white">Tentang</a></h3>
-            <ul class="footer-link list-unstyled">
-              <li><p>Tentang Klinik</p></li>
-              <li><p>Kerjasama Klinik</p></li>
-            </ul>
-          </div>
-          <div class="col-md-3 mb-5">
-            <h3>Tempat</h3>
-            <p class="mb-5">Jalan Trunujoyo, Sampang, Jawa Timur (Dekat Polsek Kota Sampang)</p>
-          </div>
-          <div class="col-md-3 mb-5">
-            <h3>Email</h3>
-            <p class="mb-5"><!--a href="mailto:lulukwatef76@gmail.com.com"-->hendridentalclinic@gmail.com<!--/a--></p>
+        <div class="card-header" style="text-align: center; font-size:40px; font-weight:bold">Daftar Antrian</div>
+        <br>
 
-            <h3>Telepon</h3>
-            <p>087850112825</p>
-          </div>
+        <div class="card-body">
+          <div class="table-responsive">
+            <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0" style="text-align:center">
+              <thead>
+                <tr>
+                  <th>No</th>
+                  <th>Nama</th>
+                  <th>Umur</th>
+                  <th>No Hp</th>
+                  <th>Tanggal</th>
+                  <th>Waktu</th>
+                  <th>Keluhan</th>
+                  <th>Action</th>
+                </tr>
+              </thead>
+            <tbody>
 
-        </div>
+              <?php
+              $no = 1;
+              foreach ($klinik as $klinik)
+       { ?>
+         <tr>
+         <td><?php echo $no++ ?></td>
+         <td><?php echo $klinik ['nama']; ?></td>
+         <td><?php echo $klinik ['umur']; ?></td>
+         <td><?php echo $klinik ['nohp']; ?></td>
+         <td><?php echo $klinik ['date']; ?></td>
+         <td><?php echo $klinik ['time']; ?></td>
+         <td><?php echo $klinik ['keluhan']; ?></td>
+         <td><a href="<?php echo base_url().'Welcome/edit/'.$klinik['id']?>">Ubah</a>
+           | <a href="Welcome/delete/<?php echo $klinik['id']?>" >Delete </a></td>
+              </td>
+      </tr>
+              <?php }?>
 
-        <div class="row pt-md-3 element-animate">
-          <div class="col-md-12">
-            <hr class="border-t">
-          </div>
-          <div class="col-md-6 col-sm-12 copyright">
-            <p>&copy; 2018<a href="https://colorlib.com/">Colorlib</a></p>
-          </div>
-          <div class="col-md-6 col-sm-12 text-md-right text-sm-left">
-          </div>
-        </div>
-      </div>
-    </footer>
+              </tbody>
+          </table>
+
+    <br>
+
     <!-- END footer -->
 
 
@@ -151,30 +167,30 @@
             </button>
           </div>
           <div class="modal-body">
-            <form action="#">
+            <form action="<?php echo base_url(). 'Welcome/added'; ?>" method="post">
               <div class="form-group">
                 <label for="appointment_name" class="text-black">Nama</label>
-                <input type="text" class="form-control" id="appointment_name">
+                <input type="text" name="nama" class="form-control" id="appointment_name">
               </div>
               <div class="form-group">
                 <label for="appointment_name" class="text-black">Umur</label>
-                <input type="text" class="form-control" id="appointment_age">
+                <input type="text" name="umur" class="form-control" id="appointment_age">
               </div>
               <div class="form-group">
                 <label for="appointment_email" class="text-black">Kontak (nomor yang bisa dihubungi)</label>
-                <input type="text" class="form-control" id="appointment_email">
+                <input type="text" name="nohp" class="form-control" id="appointment_email">
               </div>
               <div class="row">
                 <div class="col-md-6">
                   <div class="form-group">
                     <label for="appointment_date" class="text-black">Date</label>
-                    <input type="text" class="form-control" id="appointment_date">
+                    <input type="text" name="date" class="form-control" id="appointment_date">
                   </div>
                 </div>
                 <div class="col-md-6">
                   <div class="form-group">
                     <label for="appointment_time" class="text-black">Time</label>
-                    <input type="text" class="form-control" id="appointment_time">
+                    <input type="text" name="time" class="form-control" id="appointment_time">
                   </div>
                 </div>
               </div>
@@ -182,7 +198,7 @@
 
               <div class="form-group">
                 <label for="appointment_message" class="text-black">Keluhan</label>
-                <textarea name="" id="appointment_message" class="form-control" cols="10" rows="5"></textarea>
+                <textarea name="keluhan" id="appointment_message" class="form-control" cols="10" rows="5"></textarea>
               </div>
               <div class="form-group">
                 <input type="submit" value="Kirim" class="btn btn-primary">
@@ -202,5 +218,17 @@
     <script src="<?php echo base_url(); ?>assets/js/jquery.timepicker.min.js"></script>
     <script src="<?php echo base_url(); ?>assets/js/jquery.waypoints.min.js"></script>
     <script src="<?php echo base_url(); ?>assets/js/main.js"></script>
+
+    <script src="<?php echo base_url(); ?>assets/admin/vendor/jquery/jquery.min.js"></script>
+   <script src="<?php echo base_url(); ?>assets/admin/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+   <!-- Core plugin JavaScript-->
+   <script src="<?php echo base_url(); ?>assets/admin/vendor/jquery-easing/jquery.easing.min.js"></script>
+   <!-- Page level plugin JavaScript-->
+   <script src="<?php echo base_url(); ?>assets/admin/vendor/datatables/jquery.dataTables.js"></script>
+   <script src="<?php echo base_url(); ?>assets/admin/vendor/datatables/dataTables.bootstrap4.js"></script>
+   <!-- Custom scripts for all pages-->
+   <script src="<?php echo base_url(); ?>assets/admin/js/sb-admin.min.js"></script>
+   <!-- Custom scripts for this page-->
+   <script src="<?php echo base_url(); ?>assets/admin/js/sb-admin-datatables.min.js"></script>
   </body>
 </html>

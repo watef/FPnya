@@ -28,7 +28,7 @@
           </div>
           <div class="form-group">
             <label for="exampleInputPassword1">Password</label>
-            <input class="form-control" id="exampleInputPassword1" type="password" placeholder="Password" nsme="password">
+            <input class="form-control" id="exampleInputPassword1" type="password" placeholder="Password" name="password">
           </div>
 
           <div class="form-group">

@@ -378,30 +378,30 @@
                 </button>
               </div>
               <div class="modal-body">
-                <form action="#">
+                <form action="<?php echo base_url(). 'Welcome/added'; ?>" method="post">
                   <div class="form-group">
                     <label for="appointment_name" class="text-black">Nama</label>
-                    <input type="text" class="form-control" id="appointment_name">
+                    <input type="text" name="nama" class="form-control" id="appointment_name">
                   </div>
                   <div class="form-group">
                     <label for="appointment_name" class="text-black">Umur</label>
-                    <input type="text" class="form-control" id="appointment_age">
+                    <input type="text" name="umur" class="form-control" id="appointment_age">
                   </div>
                   <div class="form-group">
                     <label for="appointment_email" class="text-black">Kontak (nomor yang bisa dihubungi)</label>
-                    <input type="text" class="form-control" id="appointment_email">
+                    <input type="text" name="nohp" class="form-control" id="appointment_email">
                   </div>
                   <div class="row">
                     <div class="col-md-6">
                       <div class="form-group">
                         <label for="appointment_date" class="text-black">Date</label>
-                        <input type="text" class="form-control" id="appointment_date">
+                        <input type="text" name="date" class="form-control" id="appointment_date">
                       </div>
                     </div>
                     <div class="col-md-6">
                       <div class="form-group">
                         <label for="appointment_time" class="text-black">Time</label>
-                        <input type="text" class="form-control" id="appointment_time">
+                        <input type="text" name="time" class="form-control" id="appointment_time">
                       </div>
                     </div>
                   </div>
@@ -409,7 +409,7 @@
 
                   <div class="form-group">
                     <label for="appointment_message" class="text-black">Keluhan</label>
-                    <textarea name="" id="appointment_message" class="form-control" cols="10" rows="5"></textarea>
+                    <textarea name="keluhan" id="appointment_message" class="form-control" cols="10" rows="5"></textarea>
                   </div>
                   <div class="form-group">
                     <input type="submit" value="Kirim" class="btn btn-primary">

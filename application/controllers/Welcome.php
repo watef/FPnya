@@ -3,24 +3,15 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Welcome extends CI_Controller {
 
-	/**
-	 * Index Page for this controller.
-	 *
-	 * Maps to the following URL
-	 * 		http://example.com/index.php/welcome
-	 *	- or -
-	 * 		http://example.com/index.php/welcome/index
-	 *	- or -
-	 * Since this controller is set as the default controller in
-	 * config/routes.php, it's displayed at http://example.com/
-	 *
-	 * So any other public methods not prefixed with an underscore will
-	 * map to /index.php/welcome/<method_name>
-	 * @see https://codeigniter.com/user_guide/general/urls.html
-	 */
+	function __construct(){
+		parent::__construct();
+		$this->load->model('m_klinik');
+		$this->load->helper('url');
+	}
+
 	public function index()
 	{
-		$this->load->helper('url');
+
 		$this->load->view('index');
 	}
 	public function services()
@@ -50,16 +41,45 @@ class Welcome extends CI_Controller {
 	}
 	public function antri()
 	{
-		$this->load->helper('url');
-		$this->load->view('antri');
+	$this->load->helper('url');
+	$this->load->model('m_klinik');
+	$klinik =$this->m_klinik->getklinik();
+	$this->load->view('antri',array('klinik'=>$klinik));
 	}
-	public function admin()
+	/*public function admin()
 	{
 		$this->load->helper('url');
 		$this->load->view('admin');
-	}
+	}*/
 	function logout(){
 	$this->session->sess_destroy();
 	redirect(base_url('login'));
+}
+public function added()
+{
+
+	$nama = $this->input->post('nama');
+	$umur = $this->input->post('umur');
+	$nohp = $this->input->post('nohp');
+	$date = $this->input->post('date');
+	$time = $this->input->post('time');
+	$keluhan = $this->input->post('keluhan');
+
+	$data = array(
+		'nama' => $nama,
+		'umur' => $umur,
+		'nohp' => $nohp,
+		'date' => $date,
+		'time' => $time,
+		'keluhan' => $keluhan
+	);
+	$this->load->model('m_klinik');
+	$this->m_klinik->add($data,'klinik');
+	redirect('Welcome/antri');
+}
+public function delete($id)
+{
+	$this->m_klinik->delete($id);
+	redirect('admin');
 }
 }
