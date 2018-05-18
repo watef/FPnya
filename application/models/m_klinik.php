@@ -20,4 +20,11 @@ class m_klinik extends CI_Model
 		return $this->db->delete('klinik',array('id'=>$id));
 
 	}
+	function edit($where, $table) {
+		$res = $this->db->get_where($table, $where);
+        return $res->result_array();
+	}
+function update($where, $data, $table) {
+        return $this->db->update($table, $data, $where);
+  }
 }

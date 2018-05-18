@@ -82,4 +82,33 @@ public function delete($id)
 	$this->m_klinik->delete($id);
 	redirect('admin');
 }
+	function edit($id) {
+        $where = array('id' => $id);
+        $data['klinik'] = $this->m_klinik->edit($where, 'klinik');
+        $this->load->view('edit', $data);
+    }
+  function update() {
+        $id = $this->input->post('id');
+        $nama = $this->input->post('nama');
+        $umur = $this->input->post('umur');
+        $nohp = $this->input->post('nohp');
+        $date = $this->input->post('date');
+        $time = $this->input->post('time');
+        $keluhan = $this->input->post('keluhan');
+        $data = array(
+            'nama' => $nama,
+            'umur' => $umur,
+            'nohp' => $nohp,
+            'date' => $date,
+            'time' => $time,
+            'keluhan' => $keluhan
+        );
+        $where = array(
+            'id' => $id
+        );
+				$this->load->model('m_klinik');
+				$datas = $this->m_klinik->update($where, $data,'klinik');
+				var_dump($id);
+				//redirect('admin');
+}
 }

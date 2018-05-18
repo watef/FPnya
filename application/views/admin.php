@@ -142,8 +142,8 @@
          <td><?php echo $klinik ['date']; ?></td>
          <td><?php echo $klinik ['time']; ?></td>
          <td><?php echo $klinik ['keluhan']; ?></td>
-         <td><a href="<?php echo base_url().'Welcome/edit/'.$klinik['id']?>">Ubah</a>
-           | <a href="Welcome/delete/<?php echo $klinik['id']?>" >Delete </a></td>
+         <td><a class="btn btn-primary" href="<?php echo base_url().'Welcome/edit/'.$klinik['id']?>">Ubah</a>
+            <a class="btn btn" style="background:red; color:white" href="Welcome/delete/<?php echo $klinik['id']?>" >Delete </a></td>
               </td>
       </tr>
               <?php }?>

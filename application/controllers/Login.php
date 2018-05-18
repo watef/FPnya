@@ -35,7 +35,7 @@ class Login extends CI_Controller{
 			//echo "Username dan password salah !";
 		}else{
 			echo "Username dan password salah !";
-			var_dump($cek,$username,$password);
+			//var_dump($cek,$username,$password);
 
 
 	}
