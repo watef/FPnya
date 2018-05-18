@@ -100,25 +100,35 @@
     <!-- END header -->
 
     <section class="home-slider owl-carousel">
+      <div class="slider-item" style="background-image: url('<?php echo base_url(); ?>assets/img/gigi0.png');">
+
+        <div class="container">
+          <div class="row slider-text align-items-center">
+            <div class="col-md-7 col-sm-12 element-animate">
+              </div>
+          </div>
+        </div>
+
+      </div>
       <div class="slider-item" style="background-image: url('<?php echo base_url(); ?>assets/img/slider-2.jpg');">
 
         <div class="container">
           <div class="row slider-text align-items-center">
             <div class="col-md-7 col-sm-12 element-animate">
-              <h1>We Care For You</h1>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi unde impedit, necessitatibus, soluta sit quam minima expedita atque corrupti reiciendis.</p>
+              <h1>Kami Peduli Atas Kesehatan Gigi Anda</h1>
+              <p>Peduli atas kesehatan gigi dengan segala perwatan gigi baik dengan alasan kecantikan atau medis</p>
             </div>
           </div>
         </div>
 
       </div>
 
-      <div class="slider-item" style="background-image: url('<?php echo base_url(); ?>assets/img/slider-1.jpg');">
+      <div class="slider-item" style="background-image: url('<?php echo base_url(); ?>assets/img/backk.jpg');">
         <div class="container">
           <div class="row slider-text align-items-center">
             <div class="col-md-7 col-sm-12 element-animate">
-              <h1>We Provide Health Care Solutions</h1>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi unde impedit, necessitatibus, soluta sit quam minima expedita atque corrupti reiciendis.</p>
+              <h1>Kami Memberi Solusi</h1>
+              <p>Permasalahan yang Anda alami akan kami berikan solusi terbaik untuk Anda </p>
             </div>
           </div>
         </div>
@@ -134,24 +144,24 @@
         <div class="col-md-4 p-0 one-col element-animate">
           <div class="col-inner p-xl-5 p-lg-5 p-md-4 p-sm-4 p-4">
             <span class="icon flaticon-hospital-bed"></span>
-            <h2>Patient Services</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi unde impedit, necessitatibus, soluta sit quam minima expedita atque corrupti reiciendis.</p>
+            <h2>Layanan Pasien</h2>
+            <p>Menangani pasien dengan ramah dan tanggap atas permasalahan pasien.</p>
           </div>
 
         </div>
         <div class="col-md-4 p-0 two-col element-animate">
           <div class="col-inner p-xl-5 p-lg-5 p-md-4 p-sm-4 p-4">
             <span class="icon flaticon-first-aid-kit"></span>
-            <h2>Medical Services</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi unde impedit, necessitatibus, soluta sit quam minima expedita atque corrupti reiciendis.</p>
+            <h2>Layanan Medis</h2>
+            <p>Secara medis layanan yang diberikan sudah sesuai dengan prosedur dan mengutamakan pasien.</p>
           </div>
 
         </div>
         <div class="col-md-4 p-0 three-col element-animate">
           <div class="col-inner p-xl-5 p-lg-5 p-md-4 p-sm-4 p-4">
             <span class="icon flaticon-hospital"></span>
-            <h2>Amenities</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi unde impedit, necessitatibus, soluta sit quam minima expedita atque corrupti reiciendis.</p>
+            <h2>Fasilitas</h2>
+            <p>Fasilitas yang disediakan nyaman dengan ruang tunggu dengan adanya buku bacaan yang disediakan.</p>
           </div>
 
         </div>
@@ -163,14 +173,16 @@
       <div class="container">
         <div class="row justify-content-center mb-5 element-animate">
           <div class="col-md-8 text-center mb-5">
-            <h2 class="text-uppercase heading border-bottom mb-4">Why Choose Us</h2>
-            <p class="mb-0 lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi unde impedit, necessitatibus, soluta sit quam minima expedita atque corrupti reiciendis.</p>
+            <h2 class="text-uppercase heading border-bottom mb-4">Mengapa Klinik Kami</h2>
+            <p>Banyak orang yang cocok atas pelayanan kami dan kembali datang untuk melakukan perawatan selanjutnya. Dengan pelayanan yang
+              sangat ramah dan mengutamakan pasien. Fasilitas yang disediakan pun sudah sangat lengkap dan nyaman terutama untuk anak-anak
+              sehingga tidak takut utuk melakukan perwatan gigi dan mulut.</p>
           </div>
         </div>
         <div class="row align-items-center">
 
           <div class="col-md-6 stretch-left-1 element-animate" data-animate-effect="fadeInLeft">
-            <a href="#" class="video"><img src="<?php echo base_url(); ?>assets/img/img_1.jpg" alt="" class="img-fluid"></a>
+            <a href="#" class="video"><img src="<?php echo base_url(); ?>assets/img/gigi2.png" alt="" class="img-fluid"></a>
           </div>
           <div class="col-md-6 stretch-left-1-offset pl-md-5 pl-0 element-animate" data-animate-effect="fadeInLeft">
             <div class="row">
@@ -178,8 +190,7 @@
                 <div class="media d-block media-feature text-center">
                   <span class="icon flaticon-hospital"></span>
                   <div class="media-body">
-                    <h3 class="mt-0 text-black">Amenities</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    <h3 class="mt-0 text-black">Kenyamanan Fasilitas</h3>
                   </div>
                 </div>
               </div>
@@ -187,8 +198,7 @@
                 <div class="media d-block media-feature text-center">
                   <span class="icon flaticon-first-aid-kit"></span>
                   <div class="media-body">
-                    <h3 class="mt-0 text-black">Medical Services</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    <h3 class="mt-0 text-black">Layanan Medis</h3>
                   </div>
                 </div>
               </div>
@@ -199,8 +209,7 @@
                 <div class="media d-block media-feature text-center">
                   <span class="icon flaticon-hospital-bed"></span>
                   <div class="media-body">
-                    <h3 class="mt-0 text-black">Patient Services</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    <h3 class="mt-0 text-black">Perawatan gigi dan mulut</h3>
                   </div>
                 </div>
               </div>
@@ -208,8 +217,7 @@
                 <div class="media d-block media-feature text-center">
                   <span class="icon flaticon-doctor"></span>
                   <div class="media-body">
-                    <h3 class="mt-0 text-black">Expert Doctors</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    <h3 class="mt-0 text-black">Dokter profesional</h3>
                   </div>
                 </div>
               </div>
@@ -275,62 +283,68 @@
       <div class="container">
         <div class="row justify-content-center mb-5 element-animate">
           <div class="col-md-8 text-center mb-5">
-            <h2 class="text-uppercase heading border-bottom mb-4">Our Doctors</h2>
-            <p class="mb-0 lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi unde impedit, necessitatibus, soluta sit quam minima expedita atque corrupti reiciendis.</p>
+            <h2 class="text-uppercase heading border-bottom mb-4">Tenaga Medis</h2>
+            <p class="mb-0 lead"></p>
           </div>
         </div>
         <div class="row element-animate">
           <div class="major-caousel js-carousel-1 owl-carousel">
             <div>
               <div class="media d-block media-custom text-center">
-                <img src="<?php echo base_url(); ?>assets/img/doctor_1.jpg" alt="Image Placeholder" class="img-fluid">
+                <center>
+                <img style="width:80%" src="<?php echo base_url(); ?>assets/img/dokter2.png" alt="Image Placeholder" class="img-fluid">
                 <div class="media-body">
                   <h3 class="mt-0 text-black">Arfien Harisman Kurniawan </h3>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                  <p>Asisten yang sudah memiliki keterampilan dari dokter ahli</p>
                   <p>
                     <span class="fa fa-phone"> <h8 class="mt-0 text-black">087850112825</h8></span>
                   </p>
                 </div>
+              </center>
               </div>
             </div>
             <div>
               <div class="media d-block media-custom text-center">
-                <img src="<?php echo base_url(); ?>assets/img/doctor_2.jpg" alt="Image Placeholder" class="img-fluid">
+                <center>
+                <img style="width:80%" src="<?php echo base_url(); ?>assets/img/dokter1.png" alt="Image Placeholder" class="img-fluid">
                 <div class="media-body">
                   <h3 class="mt-0 text-black">Drg Hendri Eko Wahyudi, Amd. Tkg.</h3>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                  <p>Dokter proffesional yang sudah ahli dalam gigi dan mulut.</p>
                   <p>
                       <span class="fa fa-phone"> <h8 class="mt-0 text-black">081803164186</h8></span>
                   </p>
                 </div>
+              </center>
               </div>
             </div>
             <div>
               <div class="media d-block media-custom text-center">
-                <img src="<?php echo base_url(); ?>assets/img/doctor_3.jpg" alt="Image Placeholder" class="img-fluid">
+                <center>
+                <img style="width:80%" src="<?php echo base_url(); ?>assets/img/dokter3.png" alt="Image Placeholder" class="img-fluid">
                 <div class="media-body">
                   <h3 class="mt-0 text-black">Sugeng</h3>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                  <p>Asisten yang sudah memiliki keterampilan dari dokter ahli</p>
                   <p>
                     <span class="fa fa-phone"> <h8 class="mt-0 text-black">085330449996</h8></span>
                   </p>
                 </div>
+              </center>
               </div>
             </div>
-          </div>
+
           <!-- END slider -->
         </div>
       </div>
     </section>
     <!-- END section -->
 
-    <section class="cover_1" style="background-image: url(<?php echo base_url(); ?>assets/img/bg_1.jpg);">
+    <section class="cover_1" style="background-image: url(<?php echo base_url(); ?>assets/img/slider-2.jpg);">
       <div class="container">
         <div class="row text-center justify-content-center">
           <div class="col-md-10">
-            <h2 class="heading element-animate">Experience Our Advance Facilities</h2>
-            <p class="sub-heading element-animate mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi unde impedit, necessitatibus, soluta sit quam minima expedita atque corrupti reiciendis.</p>
-            <!--p class="element-animate"><a href="#" class="btn btn-primary btn-lg">Get In Touch</a></p-->
+            <h2 class="heading element-animate">Mari Periksakan Gigi dan Mulut</h2>
+            <!--p class="sub-heading element-animate mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi unde impedit, necessitatibus, soluta sit quam minima expedita atque corrupti reiciendis.</p>
+            <p class="element-animate"><a href="#" class="btn btn-primary btn-lg">Get In Touch</a></p-->
           </div>
         </div>
       </div>

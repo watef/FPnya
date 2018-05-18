@@ -101,14 +101,16 @@
     <!-- END header -->
 
 
-    <section class="home-slider inner-page owl-carousel">
-      <div class="slider-item" style="background-image: url('<?php echo base_url(); ?>assets/img/slider-2.jpg');">
+    <section class="home-slider owl-carousel">
+    
 
+      <div class="slider-item" style="background-image: url('<?php echo base_url(); ?>assets/img/slider-2.jpg');">
         <div class="container">
           <div class="row slider-text align-items-center">
             <div class="col-md-7 col-sm-12 element-animate">
-              <h1>Doctors</h1>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi unde impedit, necessitatibus, soluta sit quam minima expedita atque corrupti reiciendis.</p>
+              <h1>Tenaga Medis</h1>
+              <p>Dikerjakan oleh dokter yang sudah profesional dan sudah memiliki jam tayang sangat dalam permasalahan gigi dan mulut.
+              Dibantu dengan asisten dokter yang dapat membantu Anda dalam proses perawatan gigi dan mulut</p>
             </div>
           </div>
         </div>
@@ -260,38 +262,44 @@
           <div class="major-caousel js-carousel-1 owl-carousel">
             <div>
               <div class="media d-block media-custom text-center">
-                <img src="<?php echo base_url(); ?>assets/img/doctor_1.jpg" alt="Image Placeholder" class="img-fluid">
+                <center>
+                <img style="width:80%" src="<?php echo base_url(); ?>assets/img/dokter2.png" alt="Image Placeholder" class="img-fluid">
                 <div class="media-body">
                   <h3 class="mt-0 text-black">Arfien Harisman Kurniawan </h3>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                  <p>Asisten yang sudah memiliki keterampilan dari dokter ahli</p>
                   <p>
                     <span class="fa fa-phone"> <h8 class="mt-0 text-black">087850112825</h8></span>
                   </p>
                 </div>
+              </center>
               </div>
             </div>
             <div>
               <div class="media d-block media-custom text-center">
-                <img src="<?php echo base_url(); ?>assets/img/doctor_2.jpg" alt="Image Placeholder" class="img-fluid">
+                <center>
+                <img style="width:80%" src="<?php echo base_url(); ?>assets/img/dokter1.png" alt="Image Placeholder" class="img-fluid">
                 <div class="media-body">
                   <h3 class="mt-0 text-black">Drg Hendri Eko Wahyudi, Amd. Tkg.</h3>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                  <p>Dokter proffesional yang sudah ahli dalam gigi dan mulut.</p>
                   <p>
                       <span class="fa fa-phone"> <h8 class="mt-0 text-black">081803164186</h8></span>
                   </p>
                 </div>
+              </center>
               </div>
             </div>
             <div>
               <div class="media d-block media-custom text-center">
-                <img src="<?php echo base_url(); ?>assets/img/doctor_3.jpg" alt="Image Placeholder" class="img-fluid">
+                <center>
+                <img style="width:80%" src="<?php echo base_url(); ?>assets/img/dokter3.png" alt="Image Placeholder" class="img-fluid">
                 <div class="media-body">
                   <h3 class="mt-0 text-black">Sugeng</h3>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                  <p>Asisten yang sudah memiliki keterampilan dari dokter ahli</p>
                   <p>
                     <span class="fa fa-phone"> <h8 class="mt-0 text-black">085330449996</h8></span>
                   </p>
                 </div>
+              </center>
               </div>
             </div>
 

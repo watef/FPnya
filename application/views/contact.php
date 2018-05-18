@@ -99,14 +99,15 @@
     </header>
     <!-- END header -->
 
-    <section class="home-slider inner-page owl-carousel">
-      <div class="slider-item" style="background-image: url('<?php echo base_url(); ?>assets/img/slider-2.jpg');">
+    <section class="home-slider owl-carousel">
+      
 
+      <div class="slider-item" style="background-image: url('<?php echo base_url(); ?>assets/img/slider-2.jpg');">
         <div class="container">
           <div class="row slider-text align-items-center">
             <div class="col-md-7 col-sm-12 element-animate">
-              <h1>Contact Us</h1>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi unde impedit, necessitatibus, soluta sit quam minima expedita atque corrupti reiciendis.</p>
+              <h1>Kontak Kami</h1>
+              <p>Silahkan hubungi kontak yang sudah tertera dibawah, Kami siap melayani Anda dalam segala keluhan gigi dan mulut yang dialami</p>
             </div>
           </div>
         </div>
@@ -121,7 +122,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-6 mb-5 element-animate">
-            <form action="#" method="post">
+            <form action="mailto:hendridentalclinic@gmail.com" method="post">
               <div class="row">
                 <div class="col-md-6 form-group">
                   <label for="fname">First Name</label>
@@ -154,15 +155,17 @@
           </div>
           <div class="col-md-1"></div>
           <div class="col-md-5 element-animate">
+            <h5 class="text-uppercase mb-3">waktu Operasi</h5>
+            <p class="mb-5">Jumat (16:00 - 22:00 WIB)<br>Sabtu - Minggu (08:00 - 20:00 WIB)</p>
 
-            <h5 class="text-uppercase mb-3">Address</h5>
-            <p class="mb-5">98 West 21th Street, <br> Suite 721 <br> New York NY 10016</p>
+            <h5 class="text-uppercase mb-3">Alamat</h5>
+            <p class="mb-5">Jalan Trunujoyo,Sampang,<br>Jawa Timur (Dekat Polsek Kota Sampang)</p>
 
-            <h5 class="text-uppercase mb-3">Email Us At</h5>
-            <p class="mb-5"><a href="mailto:info@yourdomain.com">info@yourdomain.com</a> <br> <a href="mailto:customer@yourdomain.com">customer@yourdomain.com</a></p>
+            <h5 class="text-uppercase mb-3">Email </h5>
+            <p class="mb-5">hendridentalclinic@gmail.com/a> <br> </p>
 
-            <h5 class="text-uppercase mb-3">Call Us</h5>
-            <p class="mb-5">Phone: (+1) 435 3533 <br> Mobile: (+1) 435 3533 <br> Fax: (+1) 435 3534</p>
+            <h5 class="text-uppercase mb-3">Hubungi Kami</h5>
+            <p class="mb-5">Phone: 087850112825</p>
 
 
           </div>

@@ -100,14 +100,25 @@
     <!-- END header -->
 
 
-    <section class="home-slider inner-page owl-carousel">
-      <div class="slider-item" style="background-image: url('<?php echo base_url(); ?>assets/img/slider-2.jpg');">
+    <section class="home-slider owl-carousel">
+      <div class="slider-item" style="background-image: url('<?php echo base_url(); ?>assets/img/gigi0.png');">
 
         <div class="container">
           <div class="row slider-text align-items-center">
             <div class="col-md-7 col-sm-12 element-animate">
-              <h1>About Us</h1>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi unde impedit, necessitatibus, soluta sit quam minima expedita atque corrupti reiciendis.</p>
+              </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="slider-item" style="background-image: url('<?php echo base_url(); ?>assets/img/slider-2.jpg.jpg');">
+        <div class="container">
+          <div class="row slider-text align-items-center">
+            <div class="col-md-7 col-sm-12 element-animate">
+              <h1>Tentang Kami</h1>
+              <p>Klinik gigi terbaik yang ada di kota Sampang dengan pelayanan yang sangat prima terhadap kesehatan gigi dan mulut begitujuga dengan
+                perawatan gigi untuk senyum yang menawan</p>
             </div>
           </div>
         </div>
@@ -173,13 +184,17 @@
       <div class="container">
         <div class="row">
           <div class="col-md-6 element-animate">
-            <img src="<?php echo base_url(); ?>assets/img/img_1.jpg" class="img-fluid mb-4" alt="Image placeholder">
+            <img src="<?php echo base_url(); ?>assets/img/gigi2.png" class="img-fluid mb-4" alt="Image placeholder">
           </div>
           <div class="col-md-1"></div>
           <div class="col-md-5 element-animate">
-            <h2 class="text-uppercase mb-4">Hospital History</h2>
-            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt voluptate, quibusdam sunt iste dolores consequatur</p>
-            <p class="mb-5">Inventore fugit error iure nisi reiciendis fugiat illo pariatur quam sequi quod iusto facilis officiis nobis sit quis molestias asperiores rem, blanditiis! Commodi exercitationem vitae deserunt qui nihil ea, tempore et quam natus quaerat doloremque.</p>
+            <h2 class="text-uppercase mb-4">Tentang Hendri Dental Clinic</h2>
+            <p class="lead" style="text-align:justify">Hendri Dental Clinic yang melayani masalah gigi dan mulut. Di klinik ini melayani perawatan gigi dan mulut dan juga
+            melayani konservasi gigi untuk kecantikan gigi yang menjadikan setiap senyum anda berseri.</p>
+            <p class="mb-5" style="text-align:justify"> Hendri dental clinic berdiri sejak 2005 dan sudah melayani banyak pasien
+              yang berasal dari Kota Sampang ataupun dari luar Kota Sampang. Yang kami layanipun semua kalangan umur dari anak-anak, remaja sampai orang tua.
+             Banyak layanan yang kami tawarkan atas masalah gigi dan mulut. Tak hanya gigi dan mulut, dokter yang profesionalitas juga menangani
+           pasien umum.</p>
             <!--p><a href="#" class="btn btn-primary">Get In Touch</a></p-->
           </div>
         </div>

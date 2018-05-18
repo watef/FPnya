@@ -101,14 +101,22 @@
     <!-- END header -->
 
 
-    <section class="home-slider inner-page owl-carousel">
-      <div class="slider-item" style="background-image: url('<?php echo base_url(); ?>assets/img/slider-2.jpg');">
+    <section class="home-slider owl-carousel">
 
+
+      <div class="slider-item" style="background-image: url('<?php echo base_url(); ?>assets/img/slider-2.jpg');">
         <div class="container">
           <div class="row slider-text align-items-center">
             <div class="col-md-7 col-sm-12 element-animate">
               <h1>Layanan</h1>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi unde impedit, necessitatibus, soluta sit quam minima expedita atque corrupti reiciendis.</p>
+              <p>Mengapa harus kami? Karena pada Hendri Dental klinik memiliki kelebihan-kelebihan tersendiri seperti:</p>
+              <ol>
+                <li>Dikerjakan oleh dokter yang sudah profesional dan ahli dibidangnya</li>
+                <li>Streilitas alat dan kebersihan ruangan yang sangat terjaha</li>
+                  <li>Rasa sakit yang minimal dirasakan pasien saat melakukan pemeriksaan</li>
+                    <li>Teknologi terkini yang dipakai sebagai alat penunjang</li>
+                    <li>Staff yang sudah terlatih</li>
+              </ol>
             </div>
           </div>
         </div>
@@ -125,8 +133,7 @@
             <div class="media d-block media-feature text-center mb-5">
               <span class="icon flaticon-hospital"></span>
               <div class="media-body">
-                <h3 class="mt-0 text-black">Amenities</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                <h3 class="mt-0 text-black">Kenyamanan Fasilitas</h3>
               </div>
             </div>
           </div>
@@ -134,8 +141,7 @@
             <div class="media d-block media-feature text-center mb-5">
               <span class="icon flaticon-first-aid-kit"></span>
               <div class="media-body">
-                <h3 class="mt-0 text-black">Medical Services</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                <h3 class="mt-0 text-black">Layanan Medis</h3>
               </div>
             </div>
           </div>
@@ -143,8 +149,7 @@
             <div class="media d-block media-feature text-center mb-5">
               <span class="icon flaticon-hospital-bed"></span>
               <div class="media-body">
-                <h3 class="mt-0 text-black">Patient Services</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                <h3 class="mt-0 text-black">Perawatan gigi dan mulut</h3>
               </div>
             </div>
           </div>
@@ -152,8 +157,7 @@
             <div class="media d-block media-feature text-center mb-5">
               <span class="icon flaticon-doctor"></span>
               <div class="media-body">
-                <h3 class="mt-0 text-black">Expert Doctors</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                <h3 class="mt-0 text-black">Dokter profesional</h3>
               </div>
             </div>
           </div>
@@ -164,8 +168,7 @@
             <div class="media d-block media-feature text-center mb-5">
               <span class="icon flaticon-stethoscope"></span>
               <div class="media-body">
-                <h3 class="mt-0 text-black">Expert Physicians</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                <h3 class="mt-0 text-black">Pasien Umum</h3>
               </div>
             </div>
           </div>
@@ -173,8 +176,7 @@
             <div class="media d-block media-feature text-center mb-5">
               <span class="icon flaticon-syringe"></span>
               <div class="media-body">
-                <h3 class="mt-0 text-black">Vaccinations</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                <h3 class="mt-0 text-black">Cabut Gigi Anak & Dewasa</h3>
               </div>
             </div>
           </div>
@@ -182,8 +184,7 @@
             <div class="media d-block media-feature text-center mb-5">
               <span class="icon flaticon-doctor-1"></span>
               <div class="media-body">
-                <h3 class="mt-0 text-black">Friendly Doctors</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                <h3 class="mt-0 text-black">Tenaga Medis yang Ramah</h3>
               </div>
             </div>
           </div>
@@ -191,8 +192,7 @@
             <div class="media d-block media-feature text-center mb-5">
               <span class="icon flaticon-microscope"></span>
               <div class="media-body">
-                <h3 class="mt-0 text-black">Microscopic Experts</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                <h3 class="mt-0 text-black">Pemeriksaan Rujukan</h3>
               </div>
             </div>
           </div>
@@ -201,7 +201,72 @@
       </div>
     </section>
     <!-- END section -->
-
+    <h2 class="mt-0 text-black" style="text-align:center">Selain itu masih banyak lagi pelayanan yang kami sediakan seperti</h2>
+    <section class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 element-animate">
+            <div class="media d-block media-feature text-center mb-5">
+              <div class="media-body">
+                <h3 class="mt-0 text-black">Perawatan dan Pemasangan Kawat Gigi</h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 element-animate">
+            <div class="media d-block media-feature text-center mb-5">
+              <div class="media-body">
+                <h3 class="mt-0 text-black">Implant Gigi</h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 element-animate">
+            <div class="media d-block media-feature text-center mb-5">
+              <div class="media-body">
+                <h3 class="mt-0 text-black">Pemutihan Gigi</h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 element-animate">
+            <div class="media d-block media-feature text-center mb-5">
+              <div class="media-body">
+                <h3 class="mt-0 text-black">Veener Gigi</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3 element-animate">
+              <div class="media d-block media-feature text-center mb-5">
+                <div class="media-body">
+                  <h3 class="mt-0 text-black">Gusi Bengkak</h3>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 element-animate">
+              <div class="media d-block media-feature text-center mb-5">
+                <div class="media-body">
+                  <h3 class="mt-0 text-black">Fraktur Gigi</h3>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 element-animate">
+              <div class="media d-block media-feature text-center mb-5">
+                <div class="media-body">
+                  <h3 class="mt-0 text-black">Gigi Palsu</h3>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 element-animate">
+              <div class="media d-block media-feature text-center mb-5">
+                <div class="media-body">
+                  <h3 class="mt-0 text-black">Impaksi Gigi</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+    </section>
     <!--section class="section bg-light custom-tabs">
       <div class="container">
         <div class="row">

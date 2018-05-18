@@ -102,14 +102,15 @@
     <!-- END header -->
 
 
-    <section class="home-slider inner-page owl-carousel">
-      <div class="slider-item" style="background-image: url('<?php echo base_url(); ?>assets/img/slider-2.jpg');">
+    <section class="home-slider owl-carousel">
+    
 
+      <div class="slider-item" style="background-image: url('<?php echo base_url(); ?>assets/img/slider-2.jpg');">
         <div class="container">
           <div class="row slider-text align-items-center">
             <div class="col-md-7 col-sm-12 element-animate">
-              <h1>Doctors</h1>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi unde impedit, necessitatibus, soluta sit quam minima expedita atque corrupti reiciendis.</p>
+              <h1>Galery</h1>
+              <p>Keluhan dan perwatan yang sudah pernah dilakukan oleh klinik Hendri Dental Clinic dengan hasil yang memuaskan pasien</p>
             </div>
           </div>
         </div>
@@ -122,27 +123,25 @@
           <div class="container">
             <div class="row justify-content-center mb-5 element-animate">
               <div class="col-md-8 text-center mb-5">
-                <h2 class="text-uppercase heading border-bottom mb-4">Our Doctors</h2>
-                <p class="mb-0 lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi unde impedit, necessitatibus, soluta sit quam minima expedita atque corrupti reiciendis.</p>
+                <h2 class="text-uppercase heading border-bottom mb-4">Galery</h2>
+
               </div>
             </div>
             <div class="row element-animate">
               <div class="major-caousel js-carousel-1 owl-carousel">
                 <div>
                   <div class="media d-block media-custom text-center">
-                    <img src="<?php echo base_url(); ?>assets/img/doctor_1.jpg" alt="Image Placeholder" class="img-fluid">
+                    <img src="<?php echo base_url(); ?>assets/img/gigi1.png" alt="Image Placeholder" class="img-fluid">
                     <div class="media-body">
-                      <h3 class="mt-0 text-black">Dr. Carl Smith</h3>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                      <h3 class="mt-0 text-black">Crown porcelain</h3>
                     </div>
                   </div>
                 </div>
                 <div>
                   <div class="media d-block media-custom text-center">
-                    <img src="<?php echo base_url(); ?>assets/img/doctor_2.jpg" alt="Image Placeholder" class="img-fluid">
+                    <img src="<?php echo base_url(); ?>assets/img/gigi2.png" alt="Image Placeholder" class="img-fluid">
                     <div class="media-body">
-                      <h3 class="mt-0 text-black">Dr. Janice Doe</h3>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                      <h3 class="mt-0 text-black">Pemasangan arch bar pada pasien fraktur maxilla</h3>
                       <p>
                       </p>
                     </div>
@@ -150,10 +149,9 @@
                 </div>
                 <div>
                   <div class="media d-block media-custom text-center">
-                    <img src="<?php echo base_url(); ?>assets/img/doctor_3.jpg" alt="Image Placeholder" class="img-fluid">
+                    <img src="<?php echo base_url(); ?>assets/img/gigi3.png" alt="Image Placeholder" class="img-fluid">
                     <div class="media-body">
-                      <h3 class="mt-0 text-black">Dr. Jean Doe</h3>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                      <h3 class="mt-0 text-black">Pfm ready for insersion</h3>
                       <p>
                       </p>
                     </div>
@@ -161,10 +159,9 @@
                 </div>
                 <div>
                   <div class="media d-block media-custom text-center">
-                    <img src="<?php echo base_url(); ?>assets/img/doctor_4.jpg" alt="Image Placeholder" class="img-fluid">
+                    <img src="<?php echo base_url(); ?>assets/img/gigi4.png" alt="Image Placeholder" class="img-fluid">
                     <div class="media-body">
-                      <h3 class="mt-0 text-black">Dr. Jessica Doe</h3>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                      <h3 class="mt-0 text-black">Composite in action</h3>
                       <p>
                       </p>
                     </div>
@@ -173,10 +170,9 @@
 
                 <div>
                   <div class="media d-block media-custom text-center">
-                    <img src="<?php echo base_url(); ?>assets/img/doctor_1.jpg" alt="Image Placeholder" class="img-fluid">
+                    <img src="<?php echo base_url(); ?>assets/img/gigi5.png" alt="Image Placeholder" class="img-fluid">
                     <div class="media-body">
-                      <h3 class="mt-0 text-black">Dr. Carl Smith</h3>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                      <h3 class="mt-0 text-black">Monolitic</h3>
                       <p>
                       </p>
                     </div>
@@ -184,10 +180,9 @@
                 </div>
                 <div>
                   <div class="media d-block media-custom text-center">
-                    <img src="<?php echo base_url(); ?>assets/img/doctor_2.jpg" alt="Image Placeholder" class="img-fluid">
+                    <img src="<?php echo base_url(); ?>assets/img/gigi6.png" alt="Image Placeholder" class="img-fluid">
                     <div class="media-body">
-                      <h3 class="mt-0 text-black">Dr. Janice Doe</h3>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                      <h3 class="mt-0 text-black">Komposite</h3>
                       <p>
                       </p>
                     </div>
@@ -195,10 +190,9 @@
                 </div>
                 <div>
                   <div class="media d-block media-custom text-center">
-                    <img src="<?php echo base_url(); ?>assets/img/doctor_3.jpg" alt="Image Placeholder" class="img-fluid">
+                    <img src="<?php echo base_url(); ?>assets/img/gigi7.png" alt="Image Placeholder" class="img-fluid">
                     <div class="media-body">
-                      <h3 class="mt-0 text-black">Dr. Jean Doe</h3>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                      <h3 class="mt-0 text-black">Porcelain fused to metal</h3>
                       <p>
                       </p>
                     </div>
@@ -206,10 +200,9 @@
                 </div>
                 <div>
                   <div class="media d-block media-custom text-center">
-                    <img src="<?php echo base_url(); ?>assets/img/doctor_4.jpg" alt="Image Placeholder" class="img-fluid">
+                    <img src="<?php echo base_url(); ?>assets/img/gigi8.png" alt="Image Placeholder" class="img-fluid">
                     <div class="media-body">
-                      <h3 class="mt-0 text-black">Dr. Jessica Doe</h3>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                      <h3 class="mt-0 text-black">terapi rebuild mahkota 12</h3>
                       <p>
                       </p>
                     </div>
